@@ -1,5 +1,3 @@
-#!/usr/bin/env ruby
-require 'rubygems'
 require 'sinatra'
 
 Results = {0 => 'positive', 1 => 'negative', 2 => 'not_available'}
