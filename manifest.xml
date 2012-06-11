@@ -6,7 +6,7 @@
       display-name="Analysis Results"
       icon="medicalkit"
       type="callback"
-      callback-url="http://localhost:4567/results">
+      callback-url="http://health-center.herokuapp.com/results">
       <settings>
         <variable name="pin" display-name="Patient pin" type="string"/>
       </settings>
@@ -20,7 +20,7 @@
       display-name="Available Appointment Dates"
       icon="medicalkit"
       type="callback"
-      callback-url="http://localhost:4567/available_dates">
+      callback-url="http://health-center.herokuapp.com/available_dates">
       <settings/>
       <response type="flow"/>
     </step>
@@ -30,7 +30,7 @@
       display-name="Make Appoinment"
       icon="medicalkit"
       type="callback"
-      callback-url="http://localhost:4567/make_appointment">
+      callback-url="http://health-center.herokuapp.com/make_appointment">
       <settings>
         <variable name="pin" display-name="Patient pin" type="string"/>
         <variable name="date_option" display-name="Date option" type="numeric"/>
@@ -43,7 +43,7 @@
       display-name="Booked Appoinment"
       icon="medicalkit"
       type="callback"
-      callback-url="http://localhost:4567/appointments">
+      callback-url="http://health-center.herokuapp.com/appointments">
       <settings>
         <variable name="pin" display-name="Patient pin" type="string"/>
       </settings>
